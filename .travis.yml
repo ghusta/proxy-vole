@@ -6,5 +6,8 @@ jdk:
   - openjdk8
   - openjdk11
 
+install:
+  - mvn clean install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
+
 script:
   - mvn test -B
