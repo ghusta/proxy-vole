@@ -2,7 +2,6 @@ language: java
 
 # https://docs.travis-ci.com/user/languages/java/#testing-against-multiple-jdks
 jdk:
-  - openjdk7
   - openjdk8
   - openjdk11
 
